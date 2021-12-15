@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>StartBucks Web Site Page</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	
+	<section>
+		<div class="circle"></div>
+		<header>
+			<a href="" class="logo"><img src="logo.png"></a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">		
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Menu</a></li>
+				<li><a href="">O que ha de novo</a></li>
+				<li><a href="">Contato</a></li>
+			</ul>
+		</header>
+		<div class="content">
+			<div class="textBox">
+				<h2>It's not just coffee <br> Its <span>Startbucks</span>
+				</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum doloremque laborum cum sit culpa, explicabo quos consequatur optio, provident non ea facere nobis nihil recusandae eius saepe obcaecati corporis!</p>
+				<a href="">Learn More</a>
+			</div>
+			<div class="imgBox">
+				<img src="img1.png" alt="
+					startbuckscup" class="starbucks">
+			</div>
+		</div>
+		<ul class="thumb">
+			<li><img src="thumb1.png" onclick="imgSlider('img1.png'); changeBackColor('#017143')"></li>
+			<li><img src="thumb2.png" onclick="imgSlider('img2.png'); changeBackColor('#ffcbdb')"></li>
+			<li><img src="thumb3.png" onclick="imgSlider('img3.png'); changeBackColor('#e64db8')"></li>
+		</ul>
+
+		
+		<ul class="sci">
+			<li><a href=""><img src="facebook.png" alt=""></a></li>
+			<li><a href=""><img src="twitter.png" alt=""></a></li>
+			<li><a href=""><img src="instagram.png" alt=""></a></li>
+		</ul>
+
+	</section>
+
+</body>
+</html>
